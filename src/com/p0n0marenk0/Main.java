@@ -18,6 +18,8 @@ public class Main {
                 Integer number5 = Integer.valueOf(time.substring(5));
                 if ((number0 + number1 + number2) == (number3 + number4 + number5)) {
                     count++;
+                    //System.out.printf("%s%s%s%s%s%s",number0,number1,number2,number3,number4,number5);
+                    //System.out.println();
                 }
             }
         }
