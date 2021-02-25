@@ -1,6 +1,5 @@
 //task2
-//Найти количество счастливых билетиков на трамвай от 000001 до 999999
-//(те у которых сумма первых 3 цифр равна сумме последних 3)
+//find amount of lucky tickets on tram from 000001 to 999999
 package com.p0n0marenk0;
 
 public class Main {
@@ -18,8 +17,6 @@ public class Main {
                 Integer number5 = Integer.valueOf(time.substring(5));
                 if ((number0 + number1 + number2) == (number3 + number4 + number5)) {
                     count++;
-                    //System.out.printf("%s%s%s%s%s%s",number0,number1,number2,number3,number4,number5);
-                    //System.out.println();
                 }
             }
         }
